@@ -1,5 +1,6 @@
 # JavaScript
+To run in the JavaScript directory open up a cmd or bash shell and execute 
 
-to run 
-npm install
-npm run start
+npm install;
+
+npm run start;
