@@ -4,7 +4,7 @@
   "description": "Health Space JavaScript lessons",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test",
+    "test": "",
     "browserReload": "livereload -f 'index.html' public/",
     "serverStart": "npx nodemon app.js -e ejs,js,css,html,jpg,png,scss",
     "start": "npm run serverStart && npm run browserReload"
