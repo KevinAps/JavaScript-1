@@ -9,14 +9,27 @@
     "serverStart": "npx nodemon app.js -e ejs,js,css,html,jpg,png,scss",
     "start": "npm run serverStart && npm run browserReload"
   },
-  "author": "",
+  "author": "Kevin",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^27.3.1"
+    "jest": "^27.3.1",
+    "nodemon": "^2.0.15"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "livereload": "^0.9.3",
-    "reload": "^3.2.0"
-  }
+    "reload": "^3.2.0",
+    "start": "^5.1.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinAps/JavaScript-1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KevinAps/JavaScript-1/issues"
+  },
+  "homepage": "https://github.com/KevinAps/JavaScript-1#readme"
 }
